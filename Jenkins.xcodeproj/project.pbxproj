@@ -347,6 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: DreamArts Corporation";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: DreamArts Corporation";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				INFOPLIST_FILE = Jenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +361,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: DreamArts Corporation";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: DreamArts Corporation";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				INFOPLIST_FILE = Jenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +422,7 @@
 				0A0D5ACB1A68D1DC00BA5AD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A0D5ACC1A68D1DC00BA5AD7 /* Build configuration list for PBXNativeTarget "JenkinsTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +431,7 @@
 				0A0D5ACE1A68D1DC00BA5AD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
